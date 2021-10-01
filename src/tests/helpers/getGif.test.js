@@ -1,4 +1,4 @@
-import getGif from '../../helpers/getGif'
+import {getGif} from '../../helpers/getGif'
 
 describe('Pruebas getGif', () => {
 
@@ -6,8 +6,17 @@ describe('Pruebas getGif', () => {
         
         const gifs = await getGif( 'One punch' )
 
-        expect( gifs.lenght ).toBe( '25' )
+        expect( gifs.length ).toBe( 25 )
     })
+
+    test('No este vacio', async () => {
+        
+        const gifs = await getGif('');
+
+        expect( gifs.length ).toBe( 0 )
+
+    })
+    
     
 
 })

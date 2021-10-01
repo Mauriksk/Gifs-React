@@ -38,6 +38,9 @@ describe('Prueba gifGridItem', () => {
         expect( className.includes( 'animate__backInRight' ) ).toBe( true )
 
     })
+
+    
+    
     
     
     
