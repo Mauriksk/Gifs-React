@@ -12,7 +12,7 @@ export const AddCategory = ( {setCategorie} ) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if( inputValue.trim().length > 2 ){
-            setCategorie( animes => [ inputValue, ...animes ])
+            setCategorie( () => [ inputValue ])
             setinputValue('')
         }
         

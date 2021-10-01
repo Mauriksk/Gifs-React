@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba gifGridItem Debe retornar el Componente <GifGridItem />. 1`] = `
+<div
+  className="card animate__animated animate__backInRight"
+>
+  <img
+    alt="Hola soy un titulo de Prueba"
+    src="https://www.upwork.com/ab/find-work/recommended"
+  />
+  <p>
+    Hola soy un titulo de Prueba
+  </p>
+</div>
+`;
